@@ -1,0 +1,74 @@
+---
+title: "CV"
+author: "Andrew Collin Stewart"
+email: andrew.c.stewart@gmail.com
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: templates/svm-latex-cv.tex
+  html_document:
+    df_print: paged
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+geometry: margin=1in
+# jobtitle: 
+keywords: R Markdown, academic CV, template
+linkcolor: blue
+fontawesome: yes
+phone: +202 505 3633
+address: San Francisco · California
+updated: no
+urlcolor: blue
+web: andrewcstewart.com
+github: andrewcstewart
+bibliography: references.bib
+nocite: | 
+  @pagan_diagnostic_2016, @zwick_genomic_2012, @chen_genomic_2010, @stewart_diya:_2009, @chen_rapid_2010, @mukhopadhyay_identification_2009, @noauthor_meetings_nodate, @zwick_genotyping_2008
+---
+
+# EXPERTISE
+
+Data Analysis \hfill Decision Analytics \hfill Predictive Modeling
+
+Research, Reports and Forecasts \hfill Dashboards & Visualization \hfill Big Data Queries
+
+Data Mining \hfill Machine Learning \hfill Business Intelligence (BI)
+
+# PROFESSIONAL EXPERIENCE
+
+**Twist Bioscience** \hfill 2015-2017
+
+ * Scientist (Bioinformatics)
+
+**Veracyte** \hfill 2014-2015
+
+ * Scientist (Data Analysis Team) 
+
+**Smithsonian Institution** \hfill 2013-2015
+
+ * Data Science Specialist (Office of the CIO) 
+
+**Keygene** \hfill 2009-2012
+
+ * Bioinformatician (Applied Systems Biology) 
+
+**Navy Medical Research Center** \hfill 2006-2009
+
+ * Research Assistant (Genomics) 
+
+# EDUCATION EXPERIENCE
+
+**Johns Hopkins University**, M.S. Computer Science \hfill 2015
+
+**University of Maryland College Park**, B.S. Biology \hfill 2006
+
+# TECHNICAL SKILLS
+
+|                  |                                                         |
+|-----------------:|---------------------------------------------------------|
+| **Programming**      | R, Python, Rust, C/C++, Java |
+| **Algorithms**       | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
+| **Statistics** | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
+
+# PUBLICATIONS
