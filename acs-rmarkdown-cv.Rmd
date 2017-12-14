@@ -27,6 +27,10 @@ nocite: |
   @pagan_diagnostic_2016, @zwick_genomic_2012, @chen_genomic_2010, @stewart_diya:_2009, @chen_rapid_2010, @mukhopadhyay_identification_2009, @noauthor_meetings_nodate, @zwick_genotyping_2008
 ---
 
+# SUMMARY
+
+Data   scientist   with   a   strong   math   background   and   experience   in   big   data,   machine   learning,   and   statistics.      Passionate   about explaining   data   science   to   non-technical   business   audiences.   Frequent   speaker   at   local   data   science   events.
+
 # EXPERTISE
 
 Data Analysis \hfill Decision Analytics \hfill Predictive Modeling
@@ -70,5 +74,36 @@ Data Mining \hfill Machine Learning \hfill Business Intelligence (BI)
 | **Programming**      | R, Python, Rust, C/C++, Java |
 | **Algorithms**       | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
 | **Statistics** | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
+
+
+\usepackage{algorithmicx}
+\usepackage{algorithm}% http://ctan.org/pkg/algorithms
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{algorithm} % enter the algorithm environment
+\caption{Calculate $y = x^n$} % give the algorithm a caption
+\label{alg1} % and a label for \ref{} commands later in the document
+\begin{algorithmic} % enter the algorithmic environment
+    \REQUIRE $n \geq 0 \vee x \neq 0$
+    \ENSURE $y = x^n$
+    \STATE $y \Leftarrow 1$
+    \IF{$n < 0$}
+        \STATE $X \Leftarrow 1 / x$
+        \STATE $N \Leftarrow -n$
+    \ELSE
+        \STATE $X \Leftarrow x$
+        \STATE $N \Leftarrow n$
+    \ENDIF
+    \WHILE{$N \neq 0$}
+        \IF{$N$ is even}
+            \STATE $X \Leftarrow X \times X$
+            \STATE $N \Leftarrow N / 2$
+        \ELSE[$N$ is odd]
+            \STATE $y \Leftarrow y \times X$
+            \STATE $N \Leftarrow N - 1$
+        \ENDIF
+    \ENDWHILE
+\end{algorithmic}
+\end{algorithm}
 
 # PUBLICATIONS

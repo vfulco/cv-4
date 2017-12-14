@@ -1,0 +1,17 @@
+language: r
+pandoc_version: 1.17.2
+cache: packages
+
+branches:
+  only: master
+
+script:
+  - R -e rmarkdown::render"('acs-rmarkdown-cv.Rmd',output_file='cv.pdf')"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_PAT
+  on:
+    branch: master
+  target_branch: gh-pages

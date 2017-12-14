@@ -1,0 +1,4 @@
+Package: cv
+Title: Andrew Stewart's CV
+Version: 0.0.1
+Imports: servr, rmarkdown
