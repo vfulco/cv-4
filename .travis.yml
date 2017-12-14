@@ -2,8 +2,6 @@ language: r
 pandoc_version: 1.17.2
 before_install:
   - tlmgr install index
-apt_packages:
-  - texlive-fonts-extra
 cache: packages
 
 branches:
