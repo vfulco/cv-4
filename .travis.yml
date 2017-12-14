@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: pages
-  local_dir: pub
+  local_dir: www
   skip_cleanup: true
   github_token: $GITHUB_PAT
   on:
