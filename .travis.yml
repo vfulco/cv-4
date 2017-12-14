@@ -8,7 +8,7 @@ branches:
   only: master
 
 script:
-  - R -e rmarkdown::render"('acs-rmarkdown-cv.Rmd',output_file='cv.pdf')"
+  - R -e rmarkdown::render"('acs-rmarkdown-cv.Rmd',output_file='cv.html')"
 
 deploy:
   provider: pages
