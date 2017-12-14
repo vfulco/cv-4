@@ -8,10 +8,11 @@ branches:
   only: master
 
 script:
-  - R -e rmarkdown::render"('acs-rmarkdown-cv.Rmd',output_file='cv.html')"
+  - R -e rmarkdown::render"('acs-rmarkdown-cv.Rmd',output_dir='pub',output_file='cv.html')"
 
 deploy:
   provider: pages
+  local_dir: pub
   skip_cleanup: true
   github_token: $GITHUB_PAT
   on:
