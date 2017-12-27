@@ -12,7 +12,7 @@ fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
 geometry: margin=1in
-# jobtitle: 
+# jobtitle: test
 keywords: R Markdown, academic CV, template
 linkcolor: blue
 fontawesome: yes
@@ -23,44 +23,36 @@ urlcolor: blue
 web: andrewcstewart.com
 github: andrewcstewart
 bibliography: references.bib
-nocite: | 
-  @pagan_diagnostic_2016, @zwick_genomic_2012, @chen_genomic_2010, @stewart_diya:_2009, @chen_rapid_2010, @mukhopadhyay_identification_2009, @noauthor_meetings_nodate, @zwick_genotyping_2008
+nocite: "@*"
 ---
 
 # SUMMARY
 
-Data   scientist   with   a   strong   math   background   and   experience   in   big   data,   machine   learning,   and   statistics.      Passionate   about explaining   data   science   to   non-technical   business   audiences.   Frequent   speaker   at   local   data   science   events.
-
-# EXPERTISE
-
-Data Analysis \hfill Decision Analytics \hfill Predictive Modeling
-
-Research, Reports and Forecasts \hfill Dashboards & Visualization \hfill Big Data Queries
-
-Data Mining \hfill Machine Learning \hfill Business Intelligence (BI)
+Data scientist with a strong math background and experience in big data, machine learning, and statistics.  Passionate about explaining data science to non-technical business audiences. Frequent speaker at local data science events.
 
 # PROFESSIONAL EXPERIENCE
 
-**Twist Bioscience** \hfill 2015-2017
+**Twist Bioscience**, Scientist (Bioinformatics) \hfill 2015-2017
 
- * Scientist (Bioinformatics)
+ * foo
+ * bar
 
-**Veracyte** \hfill 2014-2015
+**Veracyte**, Scientist (Data Analysis Team) \hfill 2014-2015
 
- * Scientist (Data Analysis Team) 
+ * Developed high dimensional machine learning models for classification in cancer diagnostics.
+ 
+**Smithsonian Institution**, Data Science Specialist (Office of the CIO) \hfill 2013-2015
 
-**Smithsonian Institution** \hfill 2013-2015
+ * Developed ensemble machine learning approach for classification of signatures of natural selection in genetic populations using support vector machines
+ 
+**Keygene**, Bioinformatician (Applied Systems Biology) \hfill 2009-2012
+ 
+ * Performed data mining and data visualization of gene regulatory networks using gene weighted correlation network analysis, R and Cytoscape. Performed exploratory data mining on hyperspectral imaging of field crop plots using dimensionality reduction techniques and 3D data visualization. Performed modeling and simulation of plant architecture using Lindenmayer systems
 
- * Data Science Specialist (Office of the CIO) 
+**Navy Medical Research Center**, Research Assistant (Biodefense Research Directorate) \hfill 2006-2009
 
-**Keygene** \hfill 2009-2012
-
- * Bioinformatician (Applied Systems Biology) 
-
-**Navy Medical Research Center** \hfill 2006-2009
-
- * Research Assistant (Genomics) 
-
+ * Applied Hidden Markov Models, clustering algorithms towards rapid identification of pathogens from NGS data.
+ 
 # EDUCATION EXPERIENCE
 
 **Johns Hopkins University**, M.S. Computer Science \hfill 2015
@@ -69,41 +61,13 @@ Data Mining \hfill Machine Learning \hfill Business Intelligence (BI)
 
 # TECHNICAL SKILLS
 
-|                  |                                                         |
-|-----------------:|---------------------------------------------------------|
-| **Programming**      | R, Python, Rust, C/C++, Java |
-| **Algorithms**       | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
+|              |                                                         |
+|-------------:|---------------------------------------------------------|
+| **Expertise** | Data Analysis, Decision Analytics, Predictive Modeling, Research, Reports and Forecasts, Dashboards & Visualization, Big Data Queries, Data Mining, Machine Learning, Business Intelligence (BI)
+| **Programming** | R, Python, Rust, C/C++, Java |
+| **Data Analysis** | ggplot2, pandas, numpy, scipy, scikit-learn, shiny
+| **Machine Learning** | classification,   regression,   clustering,   feature   engineering |
 | **Statistics** | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
 
-
-\usepackage{algorithmicx}
-\usepackage{algorithm}% http://ctan.org/pkg/algorithms
-\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
-
-\begin{algorithm} % enter the algorithm environment
-\caption{Calculate $y = x^n$} % give the algorithm a caption
-\label{alg1} % and a label for \ref{} commands later in the document
-\begin{algorithmic} % enter the algorithmic environment
-    \REQUIRE $n \geq 0 \vee x \neq 0$
-    \ENSURE $y = x^n$
-    \STATE $y \Leftarrow 1$
-    \IF{$n < 0$}
-        \STATE $X \Leftarrow 1 / x$
-        \STATE $N \Leftarrow -n$
-    \ELSE
-        \STATE $X \Leftarrow x$
-        \STATE $N \Leftarrow n$
-    \ENDIF
-    \WHILE{$N \neq 0$}
-        \IF{$N$ is even}
-            \STATE $X \Leftarrow X \times X$
-            \STATE $N \Leftarrow N / 2$
-        \ELSE[$N$ is odd]
-            \STATE $y \Leftarrow y \times X$
-            \STATE $N \Leftarrow N - 1$
-        \ENDIF
-    \ENDWHILE
-\end{algorithmic}
-\end{algorithm}
 
 # PUBLICATIONS
