@@ -28,30 +28,29 @@ nocite: "@*"
 
 # SUMMARY
 
-Data scientist with a strong math background and experience in big data, machine learning, and statistics.  Passionate about explaining data science to non-technical business audiences. Frequent speaker at local data science events.
+Data scientist with a strong background in applied research and development in big data, machine learning, and statistics.  Passionate about improving business processes through sound experimental design and analysis.
 
 # PROFESSIONAL EXPERIENCE
 
-**Twist Bioscience**, Scientist (Bioinformatics) \hfill 2015-2017
+**Twist Bioscience**, Scientist (Bioinformatics) \hfill 2015-2018
 
- * foo
- * bar
+ * Developed predictive models to optimize manufacturing processes involving cell colony picking and misassembly.  Desgin and analysis of experiments for improving chemical manufacturing processes.  Architect behind data analytics culture centered around data warehouse and ETL processes.
 
-**Veracyte**, Scientist (Data Analysis Team) \hfill 2014-2015
+**Veracyte**, Scientist (R&D Data Analysis Team) \hfill 2014-2015
 
- * Developed high dimensional machine learning models for classification in cancer diagnostics.
+ * Developed high dimensional machine learning models for classification in cancer diagnostics using a combination of supervised and semisupervised techinques.
  
-**Smithsonian Institution**, Data Science Specialist (Office of the CIO) \hfill 2013-2015
+**Smithsonian Institution**, Data Science Specialist (Office of the CIO) \hfill 2013-2014
 
- * Developed ensemble machine learning approach for classification of signatures of natural selection in genetic populations using support vector machines
+ * Provided analytical support on research projects in population genetics, phylogenmoics, and metagenomics.  Developed ensemble machine learning approach for classification of signatures of natural selection in genetic populations using support vector machines.
  
 **Keygene**, Bioinformatician (Applied Systems Biology) \hfill 2009-2012
  
- * Performed data mining and data visualization of gene regulatory networks using gene weighted correlation network analysis, R and Cytoscape. Performed exploratory data mining on hyperspectral imaging of field crop plots using dimensionality reduction techniques and 3D data visualization. Performed modeling and simulation of plant architecture using Lindenmayer systems
+ * Performed data mining and data visualization of gene regulatory networks using gene weighted correlation network analysis, R and graph visualizations.  Performed exploratory data mining on hyperspectral imaging of field crop plots using dimensionality reduction techniques and 3D data visualization. Performed modeling and simulation of plant architecture using Lindenmayer systems.
 
 **Navy Medical Research Center**, Research Assistant (Biodefense Research Directorate) \hfill 2006-2009
 
- * Applied Hidden Markov Models, clustering algorithms towards rapid identification of pathogens from NGS data.
+ * Applied Hidden Markov Models, clustering algorithms towards rapid identification of pathogens from genomic sequencing data.  Designed and built data analytics system for collection, processing and analysis of microbial genomic data using perl, R, SQL, and HPC systems.
  
 # EDUCATION EXPERIENCE
 
@@ -63,11 +62,29 @@ Data scientist with a strong math background and experience in big data, machine
 
 |              |                                                         |
 |-------------:|---------------------------------------------------------|
-| **Expertise** | Data Analysis, Decision Analytics, Predictive Modeling, Research, Reports and Forecasts, Dashboards & Visualization, Big Data Queries, Data Mining, Machine Learning, Business Intelligence (BI)
-| **Programming** | R, Python, Rust, C/C++, Java |
-| **Data Analysis** | ggplot2, pandas, numpy, scipy, scikit-learn, shiny
-| **Machine Learning** | classification,   regression,   clustering,   feature   engineering |
-| **Statistics** | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus blandit odio, sit amet efficitur purus lobortis id. Nulla malesuada ac neque eu scelerisque. |
+| **Expertise** | Data Analysis, Analytics & Dashboards, Predictive Modeling, Research & Development, ETL, Big Data Queries, Data Mining, Machine Learning, AI
+| **Programming** | R, Python, Rust, C/C++, Java, Docker , AWS |
+| **Data Analysis** | tidyverse, ggplot2, pandas, numpy, scipy, scikit-learn, Shiny, Tableau, Spark
+| **Machine Learning** | classification, regression, clustering, feature engineering |
+| **Statistics** | bayesian inference, multilevel modeling, hypothesis testing, power analysis, dimensionality reduction |
 
+# TEACHING EXPERIENCE
+
+**Johns Hopkins University**, Graduate Teaching Assistant \hfill 2016-2017
+
+* Spring 2017: 605.448.81 - Data Science
+* Spring 2017: 605.445.81 - Artificial Intelligence
+* Fall 2016: 605.448.81 - Data Science
+* Fall 2016: 605.448.82 - Data Science
+
+# VOLUNTEER EXPERIENCE
+
+**Voteocracy**, Data Science Volunteer \hfill 2016
+
+ * Applied network analysis techniques to identify marketing targets from Twitter data.
+
+**Bayes Impact**, Data Science Intern \hfill 2015
+
+ * Developed multiclass predictive model of criminal activity based on geographic and census data.
 
 # PUBLICATIONS
